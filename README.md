@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MoodBuddy 🌱
 
-## Getting Started
+**MoodBuddy** is a privacy-first mood tracking app designed to help people gently reflect, take small supportive actions, and understand emotional patterns over time — without pressure, judgment, or dark patterns.
 
-First, run the development server:
+> Not a productivity tool.  
+> Not a diagnosis tool.  
+> Just a calm space to check in with yourself.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ What MoodBuddy Does
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+MoodBuddy supports emotional awareness through three lightweight layers:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1. Daily Mood Check-in
+- Simple mood selection (no long questionnaires)
+- Optional notes and context
+- Weather snapshot captured automatically
 
-## Learn More
+### 2. Gentle Actions
+- 3–5 small, low-effort suggestions per day
+- Suggestions adapt to the user’s mood
+- Completion is optional, not mandatory
 
-To learn more about Next.js, take a look at the following resources:
+### 3. Reflection & Trends
+- Calendar view of moods and actions
+- Weekly / Monthly mood trends aligned to real calendar periods
+- Simple summaries that highlight patterns, not scores
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+All data stays **local**. No account required.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧠 Design Philosophy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+MoodBuddy is built around a few core principles:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Privacy-first**  
+  No cloud sync, no accounts, no tracking. Everything is stored locally.
+
+- **Low pressure**  
+  No streak anxiety, no gamified punishment, no “you failed” states.
+
+- **User agency**  
+  Users choose how much they engage. Suggestions are supportive, never prescriptive.
+
+- **Explainable insights**  
+  Trends and summaries are transparent and easy to understand.
+
+---
+
+## 📊 Current Features
+
+- Mood check-in with emoji-based scale
+- Gentle action checklist linked to mood
+- Action completion tracking (n / n)
+- Mood calendar with daily details
+- Weekly & Monthly mood trend charts
+  - Fixed calendar periods (Mon–Sun / full month)
+  - No misleading interpolation across missing data
+- One-line weekly insights & streaks
+- Light / Dark mode support
+- Temperature unit preference (°C / °F)
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework**: Next.js (App Router)
+- **UI**: React + Tailwind CSS
+- **State**: Local component state + Context
+- **Storage**: LocalStorage (MVP phase)
+- **Charts**: Custom SVG (no heavy charting libraries)
+
+The app is intentionally kept lightweight and dependency-minimal.
+
+---
+
+## 🚧 Work in Progress
+
+Planned next iterations include:
+
+- **Discover (Activities)**  
+  A swipe-based discovery experience for nearby activities after check-in or action completion, with user-controlled preferences.
+
+- **Insight Quality Upgrade**  
+  More human-readable reflections combining mood, actions, and trends.
+
+- **Optional Persistence Layer**  
+  Migration path to a backend (e.g. Supabase) if needed — without compromising privacy defaults.
+
+---
+
+## 🧩 Why This Project Exists
+
+MoodBuddy started as an exploration of a simple question:
+
+> *What would a mental-wellbeing app look like if it respected users’ emotional energy as much as their data?*
+
+Instead of maximizing engagement, MoodBuddy focuses on:
+- clarity over quantity
+- calm over stimulation
+- reflection over optimization
+
+---
+
+## 📌 Status
+
+**Current version**: `v0.1.0`  
+Local-first MVP, actively iterating.
+
+---
+
+## 📄 License
+
+MIT License.
