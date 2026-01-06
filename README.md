@@ -144,4 +144,5 @@ Local-first MVP, actively iterating.
 
 ## 📄 License
 
-MIT License.
+This project is licensed under the MIT License.  
+© 2026 Haoyu Cheng. All rights reserved.
