@@ -63,6 +63,14 @@ MoodBuddy is built around a few core principles:
 - Temperature unit preference (°C / °F)
 
 ---
+## 🖼️ Screenshots
+<p align="center">
+  <img src="public/screenshots/overview.png" width="30%" />
+  <img src="public/screenshots/trend.png" width="30%" />
+  <img src="public/screenshots/calendar.png" width="30%" />
+</p>
+
+---
 ## 📄 Product & Design
 
 - [Product Design Document](docs/product-design.md)  
