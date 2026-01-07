@@ -1,6 +1,6 @@
-# MoodBuddy 🌱
+# Anchor 🌱
 
-**MoodBuddy** is a privacy-first mood tracking app designed to help people gently reflect, take small supportive actions, and understand emotional patterns over time — without pressure, judgment, or dark patterns.
+**Anchor** is a privacy-first mood tracking app designed to help people gently reflect, take small supportive actions, and understand emotional patterns over time — without pressure, judgment, or dark patterns.
 
 > Not a productivity tool.  
 > Not a diagnosis tool.  
@@ -8,9 +8,9 @@
 
 ---
 
-## ✨ What MoodBuddy Does
+## ✨ What Anchor  Does
 
-MoodBuddy supports emotional awareness through three lightweight layers:
+Anchor supports emotional awareness through three lightweight layers:
 
 ### 1. Daily Mood Check-in
 - Simple mood selection (no long questionnaires)
@@ -33,7 +33,7 @@ All data stays **local**. No account required.
 
 ## 🧠 Design Philosophy
 
-MoodBuddy is built around a few core principles:
+Anchor is built around a few core principles:
 
 - **Privacy-first**  
   No cloud sync, no accounts, no tracking. Everything is stored locally.
@@ -74,15 +74,15 @@ MoodBuddy is built around a few core principles:
 ## 📄 Product Design Initiative
 
 - [Product Design Document](docs/product-design.md)  
-  A detailed overview of MoodBuddy’s product goals, design principles, MVP scope, and future directions.
+  A detailed overview of Anchor’s product goals, design principles, MVP scope, and future directions.
 ---
 ## 🎨 App Icon Design
 
 <p align="center">
-  <img src="screenshots/icon/moodbuddy_icons.png" width="160" />
+  <img src="screenshots/icon/anchor_icons.png" width="160" />
 </p>
 
-The MoodBuddy app icon is designed to represent **gentle presence rather than explicit emotion**.
+The Anchor app icon is designed to represent **gentle presence rather than explicit emotion**.
 
 Instead of expressive faces or emotionally charged symbols, the icon uses a soft, abstract combination of a **moon and sun**, symbolizing emotional cycles, balance, and continuity over time. The rounded square shape provides a sense of stability, while the minimal geometry keeps the visual experience calm and non-intrusive.
 
@@ -92,7 +92,7 @@ This design reflects MoodBuddy’s core philosophy:
 - Well-being is **cyclical, not linear**
 - Support should feel **safe, calm, and optional**
 
-MoodBuddy is not here to tell users how they should feel —  
+Anchor is not here to tell users how they should feel —  
 it simply offers a quiet space where feelings are allowed to exist.
 
 ## 🛠 Tech Stack
@@ -124,11 +124,11 @@ Planned next iterations include:
 
 ## 🧩 Why This Project Exists
 
-MoodBuddy started as an exploration of a simple question:
+Anchor started as an exploration of a simple question:
 
 > *What would a mental-wellbeing app look like if it respected users’ emotional energy as much as their data?*
 
-Instead of maximizing engagement, MoodBuddy focuses on:
+Instead of maximizing engagement, Anchor focuses on:
 - clarity over quantity
 - calm over stimulation
 - reflection over optimization
