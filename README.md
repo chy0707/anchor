@@ -8,7 +8,7 @@
 
 ---
 
-## ✨ What Anchor  Does
+## ✨ What Anchor Does
 
 Anchor supports emotional awareness through three lightweight layers:
 
@@ -79,14 +79,14 @@ Anchor is built around a few core principles:
 ## 🎨 App Icon Design
 
 <p align="center">
-  <img src="screenshots/icon/anchor_icons.png" width="160" />
+  <img src="screenshots/icon/Anchor_icons.png" width="160" />
 </p>
 
 The Anchor app icon is designed to represent **gentle presence rather than explicit emotion**.
 
 Instead of expressive faces or emotionally charged symbols, the icon uses a soft, abstract combination of a **moon and sun**, symbolizing emotional cycles, balance, and continuity over time. The rounded square shape provides a sense of stability, while the minimal geometry keeps the visual experience calm and non-intrusive.
 
-This design reflects MoodBuddy’s core philosophy:
+This design reflects Anchor’s core philosophy:
 
 - Emotions are **observed, not judged**
 - Well-being is **cyclical, not linear**

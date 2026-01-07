@@ -1,18 +1,18 @@
-# MoodBuddy — Product Design Document (MVP)
+# Anchor — Product Design Document (MVP)
 
-> This document reflects early-stage product design thinking for MoodBuddy.
+> This document reflects early-stage product design thinking for Anchor.
 > Details may evolve as the product iterates.
 
 ---
 
 ## 1. Product Overview
 
-**Product Name:** MoodBuddy
+**Product Name:** Anchor
 
 **One-line Description**  
-MoodBuddy is a privacy-first mood tracking application that helps users gently reflect on their emotions, take small supportive actions, and understand emotional patterns over time — without pressure, judgment, or over-intervention.
+Anchor is a privacy-first mood tracking application that helps users gently reflect on their emotions, take small supportive actions, and understand emotional patterns over time — without pressure, judgment, or over-intervention.
 
-MoodBuddy is not a therapy product.  
+Anchor is not a therapy product.  
 It is a calm, supportive space for everyday emotional awareness.
 
 ---
@@ -21,7 +21,7 @@ It is a calm, supportive space for everyday emotional awareness.
 
 College students and young adults increasingly face emotional stress caused by academic pressure, social isolation, cultural transitions, and uncertainty about the future. While professional mental health services are essential, many users do not seek them due to cost, stigma, accessibility, or emotional readiness.
 
-MoodBuddy is designed to fill the gap between clinical mental health services and everyday emotional needs. Instead of diagnosing or treating mental health conditions, MoodBuddy focuses on:
+Anchor is designed to fill the gap between clinical mental health services and everyday emotional needs. Instead of diagnosing or treating mental health conditions, Anchor focuses on:
 
 - helping users notice how they feel  
 - encouraging small, manageable supportive actions  
@@ -33,7 +33,7 @@ All interactions are designed to feel optional, lightweight, and non-judgmental.
 
 ## 3. Target Users
 
-MoodBuddy is designed for users who:
+Anchor is designed for users who:
 
 - want to build emotional awareness without committing to therapy  
 - prefer private, low-pressure reflection  
@@ -97,7 +97,7 @@ Examples:
 
 ## 5. Design Philosophy
 
-MoodBuddy is built around the following principles:
+Anchor is built around the following principles:
 
 - **Low pressure over engagement maximization**  
   No streak punishment, no missed-day warnings.
@@ -151,13 +151,13 @@ MoodBuddy is built around the following principles:
 
 ---
 
-## 8. Why MoodBuddy
+## 8. Why Anchor
 
-MoodBuddy explores a simple but often overlooked question:
+Anchor explores a simple but often overlooked question:
 
 > What would an emotional support app look like if it prioritized gentleness, autonomy, and clarity over engagement metrics?
 
-By focusing on small actions and long-term reflection, MoodBuddy aims to help users build emotional awareness sustainably — one check-in at a time.
+By focusing on small actions and long-term reflection, Anchor aims to help users build emotional awareness sustainably — one check-in at a time.
 
 ---
 
