@@ -48,6 +48,16 @@ Anchor is built around a few core principles:
   Trends and summaries are transparent and easy to understand.
 
 ---
+## 🌐 Live Demo (PWA)
+
+Anchor is live as a Progressive Web App:
+
+👉 https://anchor-mood.vercel.app
+
+- No sign-up required
+- Privacy-first (local-only storage)
+- Installable on iOS & Android
+---
 
 ## 📊 Current Features
 
