@@ -89,7 +89,7 @@ Anchor is live as a Progressive Web App:
 ## 🎨 App Icon Design
 
 <p align="center">
-  <img src="screenshots/icon/Anchor_icons.png" width="160" />
+  <img src="screenshots/icon/anchor_icons.png" width="160" />
 </p>
 
 The Anchor app icon is designed to represent **gentle presence rather than explicit emotion**.
