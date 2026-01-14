@@ -9,13 +9,41 @@ import SettingsIconButton from '../components/SettingsIconButton';
 import { PreferencesProvider } from '../components/PreferencesProvider';
 
 export const metadata: Metadata = {
-  title: 'Anchor',
-  description: 'A gentle mood companion for everyday mental wellness.',
+  // Production base URL for generating absolute OG/Twitter image URLs
+  metadataBase: new URL('https://anchor-mood.vercel.app'),
+
+  title: 'ANCHOR',
+  description:
+    'A lightweight mood-tracking product for emotional awareness—simple check-ins, gentle reflection, and data-informed insights.',
+
+  // Social previews (LinkedIn / Facebook / Slack / iMessage)
+  openGraph: {
+    title: 'ANCHOR',
+    description: 'A lightweight mood-tracking product for emotional awareness.',
+    url: '/',
+    siteName: 'ANCHOR',
+    images: [
+      {
+        url: '/og.png',
+        width: 1200,
+        height: 630,
+        alt: 'ANCHOR – mood tracking for emotional awareness',
+      },
+    ],
+    type: 'website',
+  },
+
+  // Twitter/X preview
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ANCHOR',
+    description: 'A lightweight mood-tracking product for emotional awareness.',
+    images: ['/og.png'],
+  },
+
   // PWA / icons
   icons: {
-    // Browser tab / generic favicon (optional; keep yours if you already have /favicon.ico)
     icon: [{ url: '/favicon.ico' }],
-    // iOS "Add to Home Screen"
     apple: [{ url: '/apple-touch-icon.png' }],
   },
 };
